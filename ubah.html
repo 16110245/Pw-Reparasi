@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Reparasi</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="permintaan.css">
+    <link rel="stylesheet" href="dany.css">
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Montserrat:400,700|Open+Sans|Righteous" rel="stylesheet">
+  <style> 
+  .pilih-foto{
+    background-color:#f8f8fa;
+    width:200px;
+    height:30px;
+    position:relative;
+    top:50px;
+    left:5px;
+    border-radius:15px;
+  }
+  .canvas{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000;
+  margin-top: 23px;
+  }
+  .sp{
+  width: 20px;
+  }
+  .sp1{
+  height: 40px;
+  }
+  .sp2{
+  width: 150px;
+  }
+  .sp3{
+  height: 40px;
+  align: center;
+  }
+  .buttonsimpan{
+  border-radius:6px;
+  background-color:#18bc9c;
+  color:white;
+  position:relative;
+  top:20px;
+  left:50px;
+}
+  </style> 
+  </head>
+  <body data-spy="scroll" style="background: #747474" data-offset="80" style="background-image: url('img/banner.jpg'); ">
+    <div id="nav" class="navbar-default navbar-fixed-top menu-top">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand">Reparasi</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <nav>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="main-nav">
+                                <li><a class="page-scroll" href="user.html">Home</a></li>
+                                <li><a class="page-scroll" href="chat_room2.html" target="_blank">Messenger</a></li>
+                                <li><a class="page-scroll" href="">Pengguna</a>
+                                <ul>
+                                <li><a href="post.html">Post</a></li>
+                                <li><a href="peermintaan.html">Permintaan</a></li>
+                                </ul>
+                                </li>
+                                <li><a class="page-scroll" href="#jual">Jual</a>
+                                <ul>
+                                <li><a href="jualjasa.html">Jual Jasa</a></li>
+                                <li><a href="peesanan.html">Pesanan</a></li>
+                                </ul>
+                                </li>
+                                <li><a class="page-scroll" href="helpafterlogin.html">Help</a></li>
+
+
+                                <li><a class="page-scroll" href="#akun">Akun</a>
+                                <ul>
+                                <li><a href="profilpengguna.html">Profil</a></li>
+                                <li><a href="">Favorite</a></li>
+                                <li><a href="">Pengaturan</a></li>
+                                <li><a href="index.html">Logout</a></li>
+                                </ul></li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+<section id="home">
+      <div class="bg-color">
+    <div class="profile-setting__page">
+      <div class="image-profile">
+        <div class="img-circle" style="width:400px; height:400px; position:relative; top:50px; left:60px;">
+          <img class="img-circle" src="img/man.jpg">
+          <br>
+          <button class="pilih-foto" style="background: #18bc9c; color: #fff">
+            <span class="fa fa-camera"></span>
+            Pilih Foto
+          </button>
+        </div>
+      </div>
+      <div class="content-data">
+                <div class="col-md-8">
+          <h3 style="color:gray; font-size:26px; margin-top: 100px">Ubah biodata diri</h3>
+        <table>
+          <tr class="sp1" >
+            <td class="sp3" >Nama </td><br>
+            <td class="sp"> : </td>
+            <td>
+              <input type="text" name="Nama" required=""></td>
+          </tr>
+          <tr class="sp1">
+            <td class="sp3">Tanggal lahir </td>
+            <td class="sp"> :   </td>
+            <td><input type="date" name="Tanggallahir" required=""></td>
+          </tr>
+          <tr class="sp1">
+            <td class="sp3">Jenis kelamin </td>
+            <td class="sp"> :   </td>
+            <td>
+              <input type="radio" name="jk" value="Laki-Laki" style="font-size:18px;">Laki - laki
+              <input type="radio" name="jk" value="Perempuan">Perempuan
+            </td>
+          </tr>
+          <tr class="sp1">
+            <td colspan="3"><br><br><h3 style="color:gray;">Ubah kontak</h3></td>
+          </tr>
+          <tr class="sp1">
+            <td class="sp3">Email </td>
+            <td class="sp"> : </td>
+            <td><input type="Email" name="" required=""></td>
+          </tr>
+        <tr class="sp1">
+          <td class="sp3">No Telepon </td>
+          <td class="sp"> : </td>
+          <td><input type="text" name="" required=""></td>
+        </tr>
+        <tr align="center">
+          <td colspan="3"><button class="buttonsimpan" align="" type="button">Simpan</button></td>
+        </tr>
+      </table>
+    </div>
+      </div>
+               </div>
+          </div>
+    </section>
+
+    <footer class="footer text-center" style="margin-top: 100PX">
+      <div class="footer-top">
+          <div class="row">
+              <div class="col-md-offset-3 col-md-6 text-center">
+                  <div class="widget">
+                      <h4 class="widget-title">TIMUR SQUARD</h4>
+                      <address>Jln.cendrawasi no 12<br>papua, jayapura</address>
+                      <ul class="social-list list-horizontal">
+                          <li><a href="#">Twitter</a> |</li>
+                          <li><a href="#">Facebook</a></li>
+                      </ul>
+                      <p class="copyright clear-float" style="color: #fff;">
+                          © Timur_squard. all peopel timur
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
