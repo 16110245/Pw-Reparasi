@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Reparasi</title>
+    
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="permintaan.css">
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Montserrat:400,700|Open+Sans|Righteous" rel="stylesheet">
+
+    <style>
+  .tble{
+    max-width: 550px;
+    background: #fff;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: black;
+    margin: auto;
+    border: 2px solid #eee;
+
+  }
+
+form ol {
+  padding-left: 0;
+}
+
+form li, div > p {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+form img {
+  height: 64px;
+  order: 1;
+}
+
+form p {
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+form label, form button {
+  background-color: #18bc9c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  height: auto;
+}
+
+form label:hover, form button:hover {
+  background-color: #2D5BA3;
+  color: white;
+}
+
+form label:active, form button:active {
+  background-color: #0D3F8F;
+  color: white;
+}
+  </style> 
+  </head>
+  <body data-spy="scroll" data-offset="80" style="background-image: url('img/banner.jpg'); ">
+    <div id="nav" class="navbar-default navbar-fixed-top menu-top">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand">Reparasi</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <nav>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="main-nav">
+                                <li><a class="page-scroll" href="user.html">Home</a></li>
+                                <li><a class="page-scroll" href="chat_room2.html" target="_blank">Messenger</a></li>
+                                <li><a class="page-scroll" href="#jual">Pengguna</a>
+                                <ul>
+                                <li><a href="post.html">Post</a></li>
+                                <li><a href="peermintaan.html">Permintaan</a></li>
+                                </ul>
+                                </li>
+                                <li><a class="page-scroll" href="#jual">Jual</a>
+                                <ul>
+                                <li><a href="jualjasa.html">Jual Jasa</a></li>
+                                <li><a href="peesanan.html">Pesanan</a></li>
+                                </ul>
+                                </li>
+                                <li><a class="page-scroll" href="helpuser.html">Help</a></li>
+                                <li><a class="page-scroll" href="#akun">Akun</a>
+                                <ul>
+                                <li><a href="profijasa.html">Profil</a></li>
+                                <li><a href="">Favorite</a></li>
+                                <li><a href="user.html">Pengaturan</a></li>
+                                <li><a href="index.html">Logout</a></li>
+                                </ul></li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+<div class="bg-color">
+<h1 style="padding-top: 100px; color: #fff;"><center>Jual Jasa</center></h1>
+    
+    <div style="margin-top: 20px;">
+      <div class="tble" >
+
+        <table style="margin-bottom: 5px;" >
+    <tr>
+        <td style="padding-bottom: 20px;">Kategori</td>
+        <td style="padding-bottom: 20px; padding-left: 30px; "><div class="btn">
+                    <select style="background: #18bc9c;color: #fff; width: 90px; height: 30px;">
+                        <option>- WILAYAH -</option>
+                        <option>-> Yogyakarta</option>
+                        <option>-> Jakarta</option>
+                        <option >-> Malang</option>
+                        <option>-> Surabaya</option>
+                        <option>-> Semarang</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <form style="background: #f7f7f7; margin-top: 5px; height: 200px">
+         <p>Pengalaman Kerja</p>
+            
+              <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" style="width: 500px; height: 100px;"></textarea>
+              </div>
+              <button>submit</button> 
+
+             </form>
+<h4>lampiran</h4>
+<form method="post" enctype="multipart/form-data" style="width: 518px;
+  background: #f7f7f7;
+  margin: 0 auto;
+  padding: 20px;">
+  <div>
+    <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
+    <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+  </div>
+  <div class="preview">
+    <p>No files currently selected for upload</p>
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form>
+      </div>
+    
+    </div>
+  </div>
+  
+
+    <footer class="footer text-center">
+      <div class="footer-top">
+          <div class="row">
+              <div class="col-md-offset-3 col-md-6 text-center">
+                  <div class="widget">
+                      <h4 class="widget-title">TIMUR SQUARD</h4>
+                      <address>Jln.cendrawasi no 12<br>papua, jayapura</address>
+                      <ul class="social-list list-horizontal">
+                          <li><a href="#">Twitter</a> |</li>
+                          <li><a href="#">Facebook</a></li>
+                           <p class="copyright clear-float" style="color: #fff;">
+                          © Timur_squard. all peopel timur
+                      </p>
+                      </ul>
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+<script>
+var input = document.querySelector('input');
+var preview = document.querySelector('.preview');
+
+input.style.opacity = 0;input.addEventListener('change', updateImageDisplay);function updateImageDisplay() {
+  while(preview.firstChild) {
+    preview.removeChild(preview.firstChild);
+  }
+
+  var curFiles = input.files;
+  if(curFiles.length === 0) {
+    var para = document.createElement('p');
+    para.textContent = 'No files currently selected for upload';
+    preview.appendChild(para);
+  } else {
+    var list = document.createElement('ol');
+    preview.appendChild(list);
+    for(var i = 0; i < curFiles.length; i++) {
+      var listItem = document.createElement('li');
+      var para = document.createElement('p');
+      if(validFileType(curFiles[i])) {
+        para.textContent = 'File name ' + curFiles[i].name + ', file size ' + returnFileSize(curFiles[i].size) + '.';
+        var image = document.createElement('img');
+        image.src = window.URL.createObjectURL(curFiles[i]);
+
+        listItem.appendChild(image);
+        listItem.appendChild(para);
+
+      } else {
+        para.textContent = 'File name ' + curFiles[i].name + ': Not a valid file type. Update your selection.';
+        listItem.appendChild(para);
+      }
+
+      list.appendChild(listItem);
+    }
+  }
+}var fileTypes = [
+  'image/jpeg',
+  'image/pjpeg',
+  'image/png'
+]
+
+function validFileType(file) {
+  for(var i = 0; i < fileTypes.length; i++) {
+    if(file.type === fileTypes[i]) {
+      return true;
+    }
+  }
+
+  return false;
+}function returnFileSize(number) {
+  if(number < 1024) {
+    return number + 'bytes';
+  } else if(number >= 1024 && number < 1048576) {
+    return (number/1024).toFixed(1) + 'KB';
+  } else if(number >= 1048576) {
+    return (number/1048576).toFixed(1) + 'MB';
+  }
+}
+</script>
+
+
+
+
+
+  </body>
+</html>
